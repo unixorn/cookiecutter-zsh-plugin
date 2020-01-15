@@ -23,7 +23,7 @@ Dependencies
 .. code-block:: bash
 
     https://github.com/mafredri/zsh-async
-    https://github.com/marzocchi/zsh-notify
+    https://github.com/luismayta/zsh-notify
     https://github.com/luismayta/zsh-functions
 
 Installation
@@ -68,7 +68,7 @@ install this plugin by doing the following:
 
     .. code-block:: bash
 
-    antibody bundle {{cookiecutter.repository_owner}}/{{cookiecutter.repository_name}}
+        antibody bundle {{cookiecutter.repository_owner}}/{{cookiecutter.repository_name}}
 
     to your ``.zshrc`` where you're adding your other plugins.
 2. Either open a new terminal to force zsh to load the new plugin, or
@@ -165,12 +165,10 @@ Made with :coffee: and :pizza: by `{{cookiecutter.author_name}}`_ and `{{cookiec
 
 .. |Build Status| image:: https://travis-ci.org/{{cookiecutter.repository_owner}}/{{cookiecutter.repository_name}}.svg
     :target: https://travis-ci.org/{{cookiecutter.repository_owner}}/{{cookiecutter.repository_name}}
-.. |GitHub issues| image:: https://img.shields.io/github/issues/{{cookiecutter.repository_owner}}equipindustry/{{cookiecutter.repository_name}}.svg
+.. |GitHub issues| image:: https://img.shields.io/github/issues/{{cookiecutter.repository_owner}}/{{cookiecutter.repository_name}}.svg
     :target: {{cookiecutter.repository_domain}}/{{cookiecutter.repository_owner}}/{{cookiecutter.repository_name}}/issues
 .. |GitHub license| image:: https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square
     :target: LICENSE
-.. |Fossa| image:: https://app.fossa.io/api/projects/git%2Bgithub.com%2Fluismayta%2F{{cookiecutter.repository_name}}.svg?type=shield
-    :target: https://app.fossa.io/projects/git%2Bgithub.com%2Fluismayta%2F{{cookiecutter.repository_name}}?ref=badge_shield
 
 .. Team:
 .. |{{cookiecutter.author_name}}| image:: {{cookiecutter.repository_domain}}/{{cookiecutter.author_repository_username}}.png?size=100
