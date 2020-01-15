@@ -9,6 +9,13 @@
 #
 {{cookiecutter.package_name}}_package_name={{cookiecutter.package_name}}
 
+{% filter upper %}{{cookiecutter.package_name}}_PLUGIN_DIR{% endfilter %}="$(dirname "${0}":A)"
+{% filter upper %}{{cookiecutter.package_name}}_SOURCE_PATH{% endfilter %}={% filter upper %}"${{cookiecutter.package_name}}_SOURCE_PATH{% endfilter %}"/src
+
+# shellcheck source=/dev/null
+source {% filter upper %}"${{cookiecutter.package_name}}_SOURCE_PATH{% endfilter %}"/base.zsh
+
+
 function {{cookiecutter.package_name}}::dependences {
     message_info "Installing dependences for ${{cookiecutter.package_name}}_package_name"
     message_success "Installed dependences for ${{cookiecutter.package_name}}_package_name"
@@ -27,7 +34,7 @@ function {{cookiecutter.package_name}}::install {
 
 function {{cookiecutter.package_name}}::post_install {
     message_info "Post Install ${{cookiecutter.package_name}}_package_name"
-    message_success "Success Install ${{cookiecutter.package_name}}_package_name}"
+    message_success "Success Install ${{cookiecutter.package_name}}_package_name"
 }
 
 function {{cookiecutter.package_name}}::load {
