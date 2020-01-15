@@ -9,7 +9,7 @@
   "aws_vault": "hadenlabs",
   "company_name": "hadenlabs",
   "company_repository_username": "hadenlabs",
-  "package_name": "nvm",
+  "package_name": "name-zsh",
   "project_description": "Project for zsh plugin",
   "project_port": "3000",
   "python_version": "3.8.0",
