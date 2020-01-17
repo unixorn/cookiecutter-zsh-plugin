@@ -7,7 +7,7 @@
 # Authors:
 #   {{cookiecutter.author_name}} <{{cookiecutter.author_email}}>
 #
-{{cookiecutter.package_name}}_package_name={{cookiecutter.package_name}}
+{{cookiecutter.package_name}}_package_name="{{cookiecutter.package_name}}"
 
 {% filter upper %}{{cookiecutter.package_name}}_PLUGIN_DIR{% endfilter %}="$(dirname "${0}":A)"
 {% filter upper %}{{cookiecutter.package_name}}_SOURCE_PATH{% endfilter %}={% filter upper %}"${{cookiecutter.package_name}}_SOURCE_PATH{% endfilter %}"/src
