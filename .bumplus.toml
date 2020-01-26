@@ -17,9 +17,9 @@ replace = """
 
 [[files."CHANGELOG.rst"]]
 search = """
-.. _`Unreleased`: https://github.com/hadenlabs/cookiecutter-zsh-plugin/compare/{{old_version}}...HEAD
+.. _`Unreleased`: https://github.com/equipindustry/cookiecutter-zsh-plugin/compare/{{old_version}}...HEAD
 """
 replace = """
-.. _`Unreleased`: https://github.com/hadenlabs/cookiecutter-zsh-plugin/compare/{{new_version}}...HEAD
-.. _{{new_version}}: https://github.com/hadenlabs/cookiecutter-zsh-plugin/compare/{{old_version}}...{{new_version}}
+.. _`Unreleased`: https://github.com/equipindustry/cookiecutter-zsh-plugin/compare/{{new_version}}...HEAD
+.. _{{new_version}}: https://github.com/equipindustry/cookiecutter-zsh-plugin/compare/{{old_version}}...{{new_version}}
 """

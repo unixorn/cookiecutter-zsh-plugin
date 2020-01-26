@@ -140,5 +140,5 @@ Try to keep history as linear as possible using a `rebase` merge strategy.
 
 #. Delete merged Branch
 
-.. _Issue: https://github.com/hadenlabs/cookiecutter-zsh-plugin/issues
-.. _Pull Request: https://github.com/hadenlabs/cookiecutter-zsh-plugin/pulls
+.. _Issue: https://github.com/equipindustry/cookiecutter-zsh-plugin/issues
+.. _Pull Request: https://github.com/equipindustry/cookiecutter-zsh-plugin/pulls
