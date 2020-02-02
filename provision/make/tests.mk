@@ -1,9 +1,5 @@
-#
-# See ./CONTRIBUTING.rst
-#
-
 test.help:
-	@echo '    Test:'
+	@echo '    Tests:'
 	@echo ''
 	@echo '        test                    Run all test'
 	@echo '        test.run                Run test of test'
