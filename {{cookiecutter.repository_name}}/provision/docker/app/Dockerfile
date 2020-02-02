@@ -1,6 +1,6 @@
 FROM python:{{ cookiecutter.python_version }}-slim
 
-MAINTAINER {{cookiecutter.author_name}} {{cookiecutter.author_email}}
+MAINTAINER {{cookiecutter.author_name}} <{{cookiecutter.author_email}}>
 
 ARG stage
 
