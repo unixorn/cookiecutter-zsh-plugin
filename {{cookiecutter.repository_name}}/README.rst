@@ -1,6 +1,9 @@
 {{ cookiecutter.repository_name }}
 ==================================
 
+|Build Status| |GitHub issues| |GitHub license|
+
+
 {{ cookiecutter.project_description }}
 
 :Version: {{cookiecutter.version}}
@@ -25,6 +28,7 @@ Dependencies
     https://github.com/mafredri/zsh-async
     https://github.com/luismayta/zsh-notify
     https://github.com/luismayta/zsh-functions
+
 
 Installation
 ------------
