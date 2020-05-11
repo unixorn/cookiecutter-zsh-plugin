@@ -13,6 +13,7 @@
   "project_description": "Project for zsh plugin",
   "project_port": "3000",
   "python_version": "3.8.0",
+  "node_version": "12.13.0",
   "release_date": "2020-02-02",
   "repository_domain": "https://github.com",
   "repository_name": "zsh-plugin-name",
