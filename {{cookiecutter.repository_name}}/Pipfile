@@ -24,13 +24,14 @@ pyyaml = "*"
 bumpversion = "*"
 bumplus = "*"
 pre-commit = "*"
-dev8 = "*"
+doc8 = "*"
 
 [packages]
 
 
 [scripts]
 test = "pytest"
+update = "pre-commit autoupdate"
 
 [requires]
-python_version = "3.8.0"
+python_version = "{{ cookiecutter.python_version }}"

@@ -3,7 +3,6 @@
 
 |Build Status| |GitHub issues| |GitHub license|
 
-
 {{ cookiecutter.project_description }}
 
 :Version: {{cookiecutter.version}}
@@ -26,9 +25,9 @@ Dependencies
 .. code-block:: bash
 
     https://github.com/mafredri/zsh-async
+    https://github.com/luismayta/zsh-core
     https://github.com/luismayta/zsh-notify
     https://github.com/luismayta/zsh-functions
-
 
 Installation
 ------------
@@ -92,7 +91,7 @@ Usage
 
 .. code-block:: bash
 
-    λ make setup
+  λ make setup
 
 Support
 -------
