@@ -1,16 +1,28 @@
-FROM equipindustry/python:3.8.0-slim
+FROM sphinxdoc/docker-ci
 
-MAINTAINER Luis Mayta <@slovacus>
+MAINTAINER Luis Mayta <slovacus@gmail.com>
 
 ARG stage
 
-LABEL NAME cookiecutter-zsh-plugin-app-$stage
+LABEL NAME cookiecutter-zsh-plugin-doc
 
 ENV USERNAME developer
 
 ENV PACKAGES bash \
-  openssl
-
+  git \
+  gcc \
+  libc-dev \
+  make \
+  musl-dev \
+  openssl \
+  gcc \
+  libgdal20 \
+  libev-dev \
+  curl \
+  wget \
+  tar \
+  zsh \
+  jq
 
 COPY Pipfile* /usr/src/
 
