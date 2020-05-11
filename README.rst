@@ -3,6 +3,8 @@ Cookiecutter Zsh Plugin
 
 |Build Status| |GitHub issues| |GitHub license|
 
+cookiecutter fro zsh plugin
+
 :Version: 0.0.0
 :Web: https://github.com/equipindustry/cookiecutter-zsh-plugin
 :Download: https://github.com/equipindustry/cookiecutter-zsh-plugin
@@ -115,7 +117,7 @@ Feel free to contact me to discuss any issues, questions, or comments.
 
 |linkedin| |beacon| |made|
 
-Made with :coffee: and :pizza: by `luis mayta`_ and `equipindustry`_.
+Made with :coffee: and :pizza: by `Luis Mayta`_ and `equipindustry`_.
 
 .. Links
 .. _`changelog`: CHANGELOG.rst
@@ -123,7 +125,7 @@ Made with :coffee: and :pizza: by `luis mayta`_ and `equipindustry`_.
 .. _`contributing`: docs/source/CONTRIBUTING.rst
 
 .. _`equipindustry`: https://github.com/equipindustry
-.. _`luis mayta`: https://github.com/luismayta
+.. _`Luis Mayta`: https://github.com/luismayta
 
 
 .. _`Github`: https://github.com/luismayta
@@ -142,12 +144,10 @@ Made with :coffee: and :pizza: by `luis mayta`_ and `equipindustry`_.
    :target: LICENSE
 
 .. Team:
-
 .. |Luis Mayta| image:: https://github.com/luismayta.png?size=100
-    :target: https://github.com/luismayta
+   :target: https://github.com/luismayta
 
 .. Footer:
-
 .. |linkedin| image:: http://www.linkedin.com/img/webpromo/btn_liprofile_blue_80x15.png
     :target: https://pe.linkedin.com/in/luismayta
 .. |beacon| image:: https://ga-beacon.appspot.com/UA-65019326-1/github.com/equipindustry/cookiecutter-zsh-plugin/readme
