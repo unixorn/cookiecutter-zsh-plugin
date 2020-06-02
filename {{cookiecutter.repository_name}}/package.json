@@ -1,6 +1,7 @@
 {
   "keywords": [],
   "name": "{{ cookiecutter.repository_name }}",
+  "private": true,
   "version": "{{ cookiecutter.version }}",
   "description": "{{ cookiecutter.project_description }}",
   "repository": "ssh://git@{{cookiecutter.repository}}.com/{{cookiecutter.repository_owner}}/{{cookiecutter.repository_name}}.git",

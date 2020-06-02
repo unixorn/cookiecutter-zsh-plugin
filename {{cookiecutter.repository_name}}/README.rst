@@ -1,9 +1,9 @@
 {{ cookiecutter.repository_name }}
 ==================================
 
-|Build Status| |GitHub issues| |GitHub license|
-
 {{ cookiecutter.project_description }}
+
+|Build Status| |GitHub issues| |GitHub license|
 
 :Version: {{cookiecutter.version}}
 :Web: {{cookiecutter.repository_domain}}/{{cookiecutter.repository_owner}}/{{cookiecutter.repository_name}}
