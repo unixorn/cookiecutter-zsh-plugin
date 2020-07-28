@@ -1,7 +1,5 @@
 FROM equipindustry/python:3.8.0-slim
 
-MAINTAINER Luis Mayta <slovacus@gmail.com>
-
 ARG stage
 LABEL NAME cookiecutter-zsh-plugin-check-$stage
 
