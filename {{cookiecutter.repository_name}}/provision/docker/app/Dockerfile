@@ -1,7 +1,5 @@
 FROM python:{{ cookiecutter.python_version }}-slim
 
-MAINTAINER {{cookiecutter.author_name}} <{{cookiecutter.author_email}}>
-
 ARG stage
 
 LABEL NAME {{ cookiecutter.repository_name }}-$stage
@@ -24,7 +22,7 @@ ENV PACKAGES bash \
   zsh \
   jq
 
-ENV ZUNIT_VERSION "0.8.2"
+ENV ZUNIT_VERSION 0.8.2
 
 COPY Pipfile* /usr/src/
 

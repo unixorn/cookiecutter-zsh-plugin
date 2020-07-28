@@ -1,7 +1,5 @@
 FROM sphinxdoc/docker-ci
 
-MAINTAINER {{cookiecutter.author_name}} {{cookiecutter.author_email}}
-
 ARG stage
 
 LABEL NAME {{ cookiecutter.repository_name }}-doc
