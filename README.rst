@@ -1,7 +1,7 @@
 Cookiecutter Zsh Plugin
 =======================
 
-cookiecutter fro zsh plugin
+cookiecutter for creating ZSH plugins
 
 |Build Status| |GitHub issues| |GitHub license|
 
