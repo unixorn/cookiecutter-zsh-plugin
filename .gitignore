@@ -1,6 +1,6 @@
 
-# Created by https://www.gitignore.io/api/terraform,python,node,ansible,bash
-# Edit at https://www.gitignore.io/?templates=terraform,python,node,ansible,bash
+# Created by https://www.toptal.com/developers/gitignore/api/terraform,python,node,ansible,bash
+# Edit at https://www.toptal.com/developers/gitignore?templates=terraform,python,node,ansible,bash
 
 ### Ansible ###
 *.retry
@@ -63,6 +63,12 @@ typings/
 # Optional eslint cache
 .eslintcache
 
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
 # Optional REPL history
 .node_repl_history
 
@@ -79,23 +85,18 @@ typings/
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 
-# next.js build output
+# Next.js build output
 .next
 
-# nuxt.js build output
+# Nuxt.js build / generate output
 .nuxt
+dist
 
-# rollup.js default build output
-dist/
-
-# Uncomment the public line if your project uses Gatsby
+# Gatsby files
+.cache/
+# Comment in the public line in if your project uses Gatsby and not Next.js
 # https://nextjs.org/blog/next-9-1#public-directory-support
-# https://create-react-app.dev/docs/using-the-public-folder/#docsNav
 # public
-
-# Storybook build outputs
-.out
-.storybook-out
 
 # vuepress build output
 .vuepress/dist
@@ -109,9 +110,11 @@ dist/
 # DynamoDB Local files
 .dynamodb/
 
-# Temporary folders
-tmp/
-temp/
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
@@ -126,6 +129,7 @@ __pycache__/
 .Python
 build/
 develop-eggs/
+dist/
 downloads/
 eggs/
 .eggs/
@@ -161,12 +165,22 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *.cover
+*.py,cover
 .hypothesis/
 .pytest_cache/
 
 # Translations
 *.mo
 *.pot
+
+# Django stuff:
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
 
 # Scrapy stuff:
 .scrapy
@@ -176,6 +190,13 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
 
 # pyenv
 .python-version
@@ -187,11 +208,23 @@ target/
 #   install all needed dependencies.
 #Pipfile.lock
 
-# celery beat schedule file
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
 celerybeat-schedule
+celerybeat.pid
 
 # SageMath parsed files
 *.sage.py
+
+# Environments
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
 # Spyder project settings
 .spyderproject
@@ -199,11 +232,6 @@ celerybeat-schedule
 
 # Rope project settings
 .ropeproject
-
-# Mr Developer
-.mr.developer.cfg
-.project
-.pydevproject
 
 # mkdocs documentation
 /site
@@ -215,6 +243,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# pytype static type analyzer
+.pytype/
 
 ### Terraform ###
 # Local .terraform directories
@@ -246,4 +277,4 @@ override.tf.json
 # Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
 # example: *tfplan*
 
-# End of https://www.gitignore.io/api/terraform,python,node,ansible,bash
+# End of https://www.toptal.com/developers/gitignore/api/terraform,python,node,ansible,bash
