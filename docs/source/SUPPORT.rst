@@ -6,7 +6,7 @@ If you have any problems with starting cookiecutter-zsh-plugin, please report it
 
 
 Who is behind cookiecutter-zsh-plugin
------------------------
+-------------------------------------
 
 **Organisation**:
 
